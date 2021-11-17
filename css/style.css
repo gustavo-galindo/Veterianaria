@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: "Roboto";
+}
+a
+{
+    display: inline-block;
+}
+p
+{
+    color: black;
+}
+header
+{
+    background-color: #EAAE00;
+    padding: 15px 0;
+}
+header .container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container .logo
+{
+    width: 200px ;
+}
+
+header .container a
+{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.container
+{
+    width: 1140px;
+    margin:  0 auto ;
+    padding-right:15px;
+    padding-left:  15px;
+}
