@@ -4,6 +4,7 @@
 body
 {
     font-family: "Roboto";
+   
 }
 a
 {
@@ -17,6 +18,11 @@ header
 {
     background-color: #EAAE00;
     padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
 }
 header .container
 {
@@ -29,11 +35,53 @@ header .container .logo
     width: 200px ;
 }
 
-header .container a
+header .container nav a
 {
     color: white;
     text-decoration: none;
     margin: 0 15px;
+}
+.boton
+{
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+.boton.boton-amarillo 
+{
+    color:white;
+    background-color:#FEC400;
+    font-size: 20px;
+    border: 1px solid white;
+    
+}
+.boton.boton-cyan
+{
+    color:white;
+    background-color: cyan;
+    font-size: 20px;
+}
+.seccion
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.cuadrado-perfecto
+{
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+
+}
+.cuadrado-perfecto img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .container
@@ -42,4 +90,95 @@ header .container a
     margin:  0 auto ;
     padding-right:15px;
     padding-left:  15px;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-left: -15px;
+}
+.columna
+{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.columna-33
+{
+    width: 33.33%;
+
+}
+#inicio
+{
+    margin: 0px 1px;
+    width: 100%;
+    background-color:#FEC400;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 255px;
+}
+#inicio img
+{
+    position: absolute;
+    width: 25%;
+    left: 70%;
+           
+}
+#inicio .bloque-inicio
+{
+   text-align: left;
+   margin-right: 50%;
+   width: 900px;
+   
+}
+#inicio .bloque-inicio h1
+{
+    font-size: 35px;
+    margin-left: 40px;
+    margin-top: 40px;
+}   
+#inicio .bloque-inicio p
+{   
+    color:white;
+    margin-left: 40px;
+    
+    
+}
+#inicio .bloque-inicio a
+{
+    margin-left: 40px;
+    margin-right:40px ;
+}
+#servicios
+{
+    text-align: center;
+    background-color:#FEC400;
+    color: white;
+    
+}
+#servicios p
+{
+    color:white;
+}
+#servicios .bloque-servicio
+{
+    border: 1px solid white;
+}
+#servicios .bloque-servicio .bloque-img-servicio
+{
+
+}
+#servicios .bloque-servicio .bloque-img-servicio img
+{
+    width: 100%;
+}
+#servicios .bloque-servicio .bloque-contenido-servicio
+{
+    padding: 15px;
+}
+#servicios .bloque-servicio .bloque-contenido-servicio h3
+{
+    margin: top 0;
+    font-size:25px;
 }
