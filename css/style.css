@@ -9,10 +9,16 @@ body
 a
 {
     display: inline-block;
+    text-decoration: none;
 }
 p
 {
     color: black;
+}
+ul
+{
+    list-style: none;
+    padding-left: 0;
 }
 header
 {
@@ -40,6 +46,35 @@ header .container nav a
     color: white;
     text-decoration: none;
     margin: 0 15px;
+}
+footer
+{
+    background-color: grey;
+    color: white;
+
+}
+footer p
+{
+    color: white;
+    margin-bottom: 30px;
+}
+
+footer a
+{
+    color: white;
+}
+footer .redes
+{
+    font-size: 20px;
+    display: flex;
+}
+footer .redes a
+{
+    margin:0 7.5px;
+}
+footer ul li
+{
+    margin-bottom: 5px;
 }
 .boton
 {
@@ -108,6 +143,16 @@ header .container nav a
 {
     width: 33.33%;
 
+}
+.redes
+{
+    font-size: 20px;
+    display: flex;
+}
+.redes a
+{
+    margin:0 7.5px;
+    color: #FEC400;
 }
 #inicio
 {
@@ -182,3 +227,7 @@ header .container nav a
     margin: top 0;
     font-size:25px;
 }
+
+
+
+
