@@ -256,6 +256,10 @@ footer ul li
         transition: all 0.4s ease;
         transform: translateX(100%);
     }
+    header .container nav.open
+    {
+        transform: translateX(0);
+    }
     header .container nav a
     {
         font-size: 30px;
@@ -270,6 +274,7 @@ footer ul li
         display: block;
         font-size: 40px;
         color:white;
+        position: relative;
     }
     .container
     {
